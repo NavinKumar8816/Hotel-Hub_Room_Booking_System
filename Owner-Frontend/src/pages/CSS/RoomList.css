@@ -1,0 +1,111 @@
+/* Container and Title Styling */
+.room-list-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.room-list-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.room-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2% 5%;
+}
+
+.room-table th, .room-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.room-table th {
+  background-color: #b4b4cf;
+}
+
+.room-table tr:nth-child(odd) {
+  background-color: #f7e7e7;
+}
+
+.room-table tr:nth-child(even) {
+  background-color: #d8d4d4;
+}
+
+.update-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 1200px) {
+  .room-list-container {
+      padding: 15px;
+      /* width: 70%; */
+  }
+  .room-table th, .room-table td {
+    padding: 10px;
+    font-size: 22px;
+}
+}
+
+@media (max-width: 768px) {
+  .room-table th, .room-table td {
+      padding: 10px;
+      font-size: 18px;
+  }
+  .room-list-title {
+      font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .room-table th, .room-table td {
+      padding: 2px;
+      width: fit-content;
+      font-size: 14px;
+  }
+
+  .room-list-title {
+      font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .room-list-container {
+      padding: 5px;
+  }
+
+  .room-table th, .room-table td {
+      padding: 2px;
+      width: fit-content;
+      font-size: 12px;
+  }
+
+  .update-button, .delete-button {
+      padding: 6px 8px;
+  }
+}

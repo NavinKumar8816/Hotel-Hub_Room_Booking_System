@@ -1,0 +1,53 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2em;
+    text-align: center;
+  }
+  .card {
+    padding: 2em;
+  }
+  
+  .d-flex{
+    margin-left: auto;
+  }
+  .form-control{
+    box-shadow: none;
+    outline: none;
+    background-color: white;
+    height: 25%;
+  
+  }
+  .navbar {
+    max-width: 100%;
+    width: 92%;
+    /* margin: 2%; */
+    background-color: #7be39e;
+    /* margin-bottom: 45px; */
+    color: red; /* Updated text color to dark gray */
+    z-index: 1000;
+    position: fixed;
+    top: 4px;
+  }
+  .btn {
+
+  }
+  
+  .carousel-item img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .container{
+    margin-top: 15px;
+  }
+  
+  .b-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  
+  
+  

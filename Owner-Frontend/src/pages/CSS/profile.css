@@ -1,0 +1,268 @@
+.pro-cont img {
+  height: 100%;
+  margin-top: -2%;
+}
+
+.profile-card {
+  /* width: 50vh; */
+  height: fit-content;
+  margin: 5% auto;
+  padding: 2%;
+  /* border: 1px solid black; */
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+              -5px -5px 15px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+.profile-card:hover {
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.5),
+              -8px -8px 25px rgba(255, 255, 255, 0.5);
+}
+
+.image-overlay1 {
+  padding: 2%;
+  max-width: 1000px;
+  color: red;
+  margin-top: 3%;
+  margin-left: 15%;
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-circle {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.img-circle img {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+}
+
+.hr {
+  /* font-weight: 400; */
+  color: red;
+}
+
+.text-name {
+  margin: 4% 4%;
+}
+
+.btn-pro {
+  background-color: red;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-pro:hover {
+  background-color: red;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-pro-e {
+  background-color: blue;
+  width: 100%;
+  margin: 2% auto;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-pro-e:hover {
+  background-color: blue;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Extra small devices */
+@media (min-width: 300px) and (max-width: 380px) {
+  .profile-card {
+    width: 80%;
+    margin: 28% auto;
+    font-size: 15px;
+  }
+  .pro-cont .background-img {
+    height: 95vh;
+    /* margin-top: -2%; */
+  }
+  .img-circle {
+    width: 60px;
+    height: 60px;
+  }
+  .img-circle img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn-pro {
+    font-size: 16px;
+  }
+}
+@media (min-width: 380px) and (max-width: 400px) {
+  .profile-card {
+    width: 100%;
+    margin: 30% auto;
+    font-size: 18px;
+  }
+  .pro-cont .background-img {
+    height: 85vh;
+    /* margin-top: -2%; */
+  }
+  .img-circle {
+    width: 60px;
+    height: 60px;
+  }
+  .img-circle img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn-pro {
+    font-size: 16px;
+  }
+}
+@media(min-width: 400px) and (max-width: 575px) {
+  .profile-card {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 35%;
+    /* margin-bottom: 100%; */
+    height: 60vh;
+  }
+  .pro-cont .background-img {
+    height: 90vh;
+    /* margin-top: -2%; */
+  }
+
+  .img-circle {
+    width: 70px;
+    height: 70px;
+  }
+  .img-circle img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .btn-pro {
+    font-size: 14px;
+  }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 768px) {
+  .profile-card {
+    width: 50%;
+    margin: 8% auto;
+  }
+  .pro-cont img {
+    height: 100%;
+    margin-top: -2%;
+  }
+  .pro-cont .background-img {
+    height: 90vh;
+    /* margin-top: -2%; */
+  }
+
+  .img-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn-pro {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 822px) {
+  .profile-card {
+    width: 70%;
+    margin: 16% auto;
+    font-size: 25px;
+  }
+  .pro-cont .background-img {
+    height: 90vh;
+    /* margin-top: -2%; */
+  }
+  .img-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .btn-pro {
+    font-size: 18px;
+  }
+}
+/* Medium devices */
+@media (min-width: 822px) and (max-width: 992px) {
+  .profile-card {
+    width: 70%;
+    margin: 20% auto;
+    font-size: 25px;
+  }
+  .pro-cont .background-img {
+    height: 90vh;
+    /* margin-top: -2%; */
+  }
+  .img-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .btn-pro {
+    font-size: 18px;
+  }
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .profile-card {
+    width: 58%;
+    margin: 4% auto;
+  }
+  .pro-cont .background-img {
+    height: 125vh;
+    /* margin-top: -2%; */
+  }
+
+  .img-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn-pro {
+    font-size: 18px;
+  }
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) {
+  .profile-card {
+    width: 40%;
+    margin: 5% auto;
+  }
+
+  .img-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn-pro {
+    font-size: 20px;
+  }
+}

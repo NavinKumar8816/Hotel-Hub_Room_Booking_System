@@ -1,0 +1,155 @@
+.navbar-u {
+  background-color: #776bff;
+  padding: 10px 20px;
+  position: sticky;
+  z-index: 1000;
+  top: 1px;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container-fluid span {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container-fluid span:hover {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-brand {
+  color: #f1f1f1;
+  font-size: 25px;
+}
+
+.navbar-brand:hover {
+  color: #f1f1f1;
+  transform: scale(1.1);
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  border: none;
+  /* margin-bottom: 15px; */
+
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  /* margin-left: 35%; */
+}
+
+
+.navbar-collapse a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-collapse a:hover {
+  color: #f1f1f1;
+}
+
+.btn {
+  color: #f1f1f1;
+  font-size: 20px;
+  border: 1px solid #f1f1f1;
+  font-family: "Times New Roman", Times, serif;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .navbar-collapse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-collapse a {
+    margin-bottom: 10px;
+  }
+  .navbar-toggler {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+  
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+
+  .navbar-collapse a {
+    margin-left: auto;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-collapse a {
+    font-size: 18px;
+    margin-left: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width : 1200px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+    .form-control {
+      width: 100%;
+
+    }
+
+  .navbar-collapse a {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width : 1400px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+    .form-control {
+      width: 100%;
+ 
+    }
+
+  .navbar-collapse a {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+    .form-control {
+      width: 40vh;
+
+    }
+
+  .navbar-collapse a {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}

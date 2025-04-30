@@ -1,0 +1,91 @@
+/* Base styles for RoomForm */
+.room-update-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.5);
+  }
+  
+  .room-update-form-title {
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: black;
+    text-align: center;
+  }
+  
+  .room-update-input,
+  .room-update-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color:rgba(255, 255, 255, 0.8) ;
+  }
+  
+  .room-update-textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .room-update-button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .room-update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .room-update-form {
+      padding: 15px;
+    }
+    
+    .room-update-form-title {
+      font-size: 20px;
+    }
+  
+    .room-update-input,
+    .room-update-textarea {
+      font-size: 14px;
+    }
+  
+    .room-update-button {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .room-update-form {
+      padding: 10px;
+    }
+    
+    .room-update-form-title {
+      font-size: 18px;
+    }
+  
+    .room-update-input,
+    .room-update-textarea {
+      font-size: 12px;
+    }
+  
+    .room-update-button {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,154 @@
+.profile-card {
+    width: 50vh;
+    height: 100%;
+    margin: 5% auto;
+    padding: 2%;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 
+                -5px -5px 15px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+  }
+  
+  .profile-card:hover {
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.5), 
+                -8px -8px 25px rgba(255, 255, 255, 0.5);
+  }
+  
+  .img-circle {
+    /* border: 1px solid black; */
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+  }
+  .img-circle img {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* margin: auto; */
+  }
+  
+  .hr {
+    height: 1px;
+    color: black;
+  }
+  
+  .text-name {
+    margin: 5% 4%;
+  }
+  
+  .btn-pro {
+    background-color: red;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-pro:hover {
+    background-color: red;
+    /* transform: translateY(-3px); */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .btn-pro-e {
+    background-color: blue;
+    width: 100%;
+    margin: 2% auto;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-pro-e:hover {
+    background-color: blue;
+    /* transform: translateY(-3px); */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 575px) {
+    .profile-card {
+      width: 90%;
+      margin: 10% auto;
+    }
+  
+    .img-circle {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .btn-pro {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .profile-card {
+      width: 80%;
+      margin: 8% auto;
+    }
+  
+    .img-circle {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .btn-pro {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    .profile-card {
+      width: 70%;
+      margin: 7% auto;
+    }
+  
+    .img-circle {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .btn-pro {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .profile-card {
+      width: 60vh;
+      margin: 6% auto;
+    }
+  
+    .img-circle {
+      width: 110px;
+      height: 110px;
+    }
+  
+    .btn-pro {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .profile-card {
+      width: 50vh;
+      margin: 5% auto;
+    }
+  
+    .img-circle {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .btn-pro {
+      font-size: 20px;
+    }
+  }
+  

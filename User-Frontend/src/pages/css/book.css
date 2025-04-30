@@ -1,0 +1,107 @@
+
+.booking-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #f9fafb, #dbeafe);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  .room-id {
+    color: #2563eb;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    margin: 15px 0;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .btn1, .btn-book{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .btn1, .btn-book:hover {
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+    color: #ffffff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .booking-container {
+      max-width: 600px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .booking-container {
+      padding: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .booking-container {
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 12px;
+    }
+  }
+  

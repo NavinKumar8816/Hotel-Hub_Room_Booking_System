@@ -1,0 +1,209 @@
+/* Default Styles */
+.container-r {
+  display: grid;
+  gap: 1rem;
+  height: 100%;
+  padding: 1rem;
+}
+
+.card-r:hover {
+  transform: scale(1.05);
+}
+
+.card-r {
+  display: flex;
+  margin-top: -10%;
+  flex-direction: column;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.room-carousel img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.room-carousel:hover img {
+  transform: scale(1.1);
+}
+
+.book-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+  color: white;
+  transform: scale(1.1);
+}
+
+.card-title {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 576px) {
+  .card-r {
+    flex-direction: column;
+    margin: 2% auto;
+    padding-bottom: 2%;
+  }
+  .card-body {
+    padding: 0.8rem;
+    text-align: center;
+  }
+  .room-carousel img {
+    height: 35vh;
+    width: 52vh;
+  }
+  .star-rating {
+    display: flex;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: -8%;
+  }
+  .book-btn {
+    margin-top: 7%;
+  }
+}
+
+/* Small Devices (Tablets, Landscape Phones) */
+@media (min-width: 576px) and (max-width: 770px) {
+  .card-r {
+    flex-direction: column;
+    margin: 2% auto;
+    text-align: center;
+  }
+  .star-rating {
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 40%;
+    text-align: center;
+  }
+  .room-carousel img {
+    height: 25vh;
+    width: 100%;
+  }
+  .book-btn {
+    margin-top: 7%;
+  }
+}
+
+
+/* Medium Devices (Tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .card-r {
+    flex-direction: column;
+    margin: 2% auto;
+  }
+  .star-rating {
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .room-carousel img {
+    height: 25vh;
+    width: 35vh;
+  }
+  .book-btn {
+    margin-top: 10%;
+  }
+}
+
+/* Large Devices (Desktops, Laptops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+ 
+  .card-r {
+    flex-direction: column;
+    margin: 2% auto;
+    width: 90%;
+    max-width: 150vh;
+  }
+  .card-body {
+    padding: 0.8rem;
+    margin-left: 5%;
+  }
+  .star-rating {
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .room-carousel img {
+    height: 45vh;
+    width: 50vh;
+  }
+  .book-btn {
+    margin-top: 15%;
+  }
+
+}
+
+/* Extra Large Devices (Large Screens, TVs) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .card-r {
+    flex-direction: column;
+    margin: 2% auto;
+    width: 90%;
+    max-width: 150vh;
+  }
+  .card-body {
+    padding: 0.8rem;
+    margin-left: 5%;
+  }
+  .star-rating {
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .room-carousel img {
+    height: 45vh;
+    width: 50vh;
+  }
+  .book-btn {
+    margin-top: 15%;
+  }
+
+}
+@media (min-width: 1400px) {
+  .card-r {
+    flex-direction: column;
+    margin: 2% auto;
+    width: 90%;
+    max-width: 150vh;
+  }
+  .card-body {
+    padding: 0.8rem;
+    margin-left: 5%;
+  }
+  .star-rating {
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .room-carousel img {
+    height: 38vh;
+    width: 50vh;
+  }
+  .book-btn {
+    margin-top: 25%;
+  }
+
+}

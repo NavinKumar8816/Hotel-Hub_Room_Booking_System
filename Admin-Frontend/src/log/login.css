@@ -1,0 +1,137 @@
+/* General Styles */
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form {
+  background: linear-gradient(135deg, #f9fafb, #dbeafe);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin: 5% auto;
+
+}
+.form:hover{
+  box-shadow: 6px 6px 10px rgba(114, 114, 114, 0.7);
+  transform: scale(1.03)
+}
+
+.box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-1 {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.btn-1:hover {
+  background-color: #0056b3;
+}
+
+.l-btn {
+  color: white;
+  text-decoration: none;
+}
+
+.p-btn h3{
+  margin: 10px 0;
+  text-align: center;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.p-btn:hover {
+  text-decoration: underline;
+}
+.spn{
+  font-size: 18px;
+}
+/* Extra Large Screens (Desktops) */
+@media (min-width: 1200px) {
+  .form {
+    max-width: 600px;
+     width: 60vh;
+     text-align: center;
+     font-family: "Times New Roman", Times, serif;
+     margin: 4% 60vh;
+     /* border: 5px solid black; */
+  }
+
+  .btn-1 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Large Screens (Laptops) */
+
+@media (min-width: 992px) and (max-width:1200px) {
+  .form {
+    max-width: 650px;
+    width: 60vh;
+    margin: 4% 40vh;
+    /* border: 5px solid black; */
+  }
+
+  .btn-1 {
+    font-size: 1rem;
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 576px) and (max-width:992px) {
+  .form {
+    max-width: 400px;
+    width: 50vh;
+    /* border: 5px solid black; */
+  }
+
+  .btn-1 {
+    padding: 12px;
+  }
+
+  .box {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Screens (Mobile Phones) */
+@media (min-width: 370px) and (max-width:576px) {
+  .container {
+    padding: 10px;
+    width: 50vh;
+  }
+
+  .form {
+    max-width: 90%;
+  }
+
+  .btn-1 {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .box {
+    font-size: 0.85rem;
+  }
+
+  .p-btn h3 {
+    font-size: 0.9rem;
+  }
+}

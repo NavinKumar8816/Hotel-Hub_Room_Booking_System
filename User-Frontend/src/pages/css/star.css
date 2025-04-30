@@ -1,0 +1,15 @@
+.star-rating {
+    display: flex;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: auto;
+    margin-bottom: auto;
+    /* float: right; */
+  }
+  .star {
+    color: gold;
+    font-family: "Times New Roman", Times, serif;
+    /* border: 1px solid black; */
+    /* float: right; */
+  }
+  
